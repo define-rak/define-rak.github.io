@@ -117,7 +117,13 @@
                     ]
                 ]
             },
-            "type": "Feature"
+            "type": "Feature",
+            "properties": {
+                "balloonContent": "Novokaravaevi Dachi"
+            },
+            "options": {
+                "fillColor": "#00FF00"
+            }
         }
     ]
 }
