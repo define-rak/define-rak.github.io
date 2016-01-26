@@ -119,12 +119,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Novokaravaevi Dachi"
+                "balloonContent": "18053384"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -157,12 +158,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "17-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373624"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -199,12 +201,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": null
+                "balloonContent": "16523863"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -297,12 +300,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "22-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373580"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -355,12 +359,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "21-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373571"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -405,12 +410,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Tampere cinema"
+                "balloonContent": "599817"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -439,12 +445,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "18-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373627"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -485,12 +492,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "15-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373616"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -563,12 +571,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "13-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373587"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -621,12 +630,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "12-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373601"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -671,12 +681,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "11-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373595"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -705,12 +716,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "5-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373532"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -803,12 +815,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "4-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373530"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -837,12 +850,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373534"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -875,12 +889,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "1-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373540"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -909,12 +924,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "3-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373538"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -955,12 +971,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "14-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "22373608"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1025,12 +1042,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Peremoha"
+                "balloonContent": "10201905"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1071,12 +1089,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
+                "balloonContent": "23434936"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1129,12 +1148,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "4-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
+                "balloonContent": "23434841"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1231,12 +1251,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "5-\u0439 \u0410 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
+                "balloonContent": "23434892"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1265,12 +1286,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "1-\u0439 \u043c\u0456\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043a\u0456\u043b\u044c\u0441\u044c\u043a\u043e\u0457 \u0411\u043e\u0440\u0449\u0430\u0433\u0456\u0432\u043a\u0438"
+                "balloonContent": "23974311"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1319,12 +1341,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "8-\u0439 \u0410 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
+                "balloonContent": "23434920"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1369,12 +1392,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "8-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
+                "balloonContent": "23434904"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1419,12 +1443,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "9-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
+                "balloonContent": "23434914"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1473,12 +1498,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "5-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
+                "balloonContent": "22639932"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1543,12 +1569,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Zhovtneve Village"
+                "balloonContent": "10200436"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1585,12 +1612,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u0416\u041a \"\u0412\u0456\u0434\u043f\u043e\u0447\u0438\u043d\u043e\u043a\""
+                "balloonContent": "25870850"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1811,12 +1839,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Sviatoshyn"
+                "balloonContent": "1259670"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1849,12 +1878,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "1-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0410\u043a\u0430\u0434\u0435\u043c\u0433\u043e\u0440\u043e\u0434\u043a\u0430"
+                "balloonContent": "22647453"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -1915,12 +1945,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0410\u043a\u0430\u0434\u0435\u043c\u0433\u043e\u0440\u043e\u0434\u043a\u0430"
+                "balloonContent": "22647449"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -2001,12 +2032,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "8-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
+                "balloonContent": "19457380"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -2075,12 +2107,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "10-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
+                "balloonContent": "16612561"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -2193,12 +2226,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "12-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
+                "balloonContent": "19457396"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -2251,12 +2285,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "13-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
+                "balloonContent": "19457409"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -2629,12 +2664,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Bilychi"
+                "balloonContent": "11002970"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -2867,12 +2903,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Novobilychi"
+                "balloonContent": "3860766"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -2953,12 +2990,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u041f\u043e\u0441\u0451\u043b\u043e\u043a \u041d\u043e\u0432\u043e\u0431\u0435\u043b\u0438\u0447\u0438"
+                "balloonContent": "29092937"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3023,12 +3061,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u0421\u0430\u0445\u0430\u043b\u0438\u043d"
+                "balloonContent": "22537817"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3089,12 +3128,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u041d\u0438\u0432\u043a\u0438-I"
+                "balloonContent": "23459168"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3167,12 +3207,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u041d\u0438\u0432\u043a\u0438-II"
+                "balloonContent": "26897767"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3265,12 +3306,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u041d\u0438\u0432\u043a\u0438-III"
+                "balloonContent": "26898364"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3391,12 +3433,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u041d\u0438\u0432\u043a\u0438-IV"
+                "balloonContent": "26898387"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3517,12 +3560,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Novokaravaevi Dachi"
+                "balloonContent": "18053384"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3615,12 +3659,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u041c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0426\u0432\u0435\u0442\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e-1"
+                "balloonContent": "12746245"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -3665,12 +3710,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u041c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0426\u0432\u0435\u0442\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e-2"
+                "balloonContent": "12746260"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -4319,12 +4365,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Bilyche Pole"
+                "balloonContent": "11185321"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -4569,12 +4616,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Mostytskyi massiv"
+                "balloonContent": "10202417"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -4731,12 +4779,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "4-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
+                "balloonContent": "11165045"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -4921,12 +4970,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "5-\u0439 \u043c\u0456\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
+                "balloonContent": "23864776"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -5035,12 +5085,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Kristerova hill"
+                "balloonContent": "2024179"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -5253,12 +5304,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Vitriani Hory"
+                "balloonContent": "207422"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -5355,12 +5407,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "3-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
+                "balloonContent": "11165015"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -5557,12 +5610,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
+                "balloonContent": "11164999"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -5711,12 +5765,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "1-st microdistrict of Vynogradar"
+                "balloonContent": "11164990"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -5833,12 +5888,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Syneozernyi massif"
+                "balloonContent": "10202294"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6035,12 +6091,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
+                "balloonContent": "11164999"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6273,12 +6330,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Shevchenko"
+                "balloonContent": "10202337"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6375,12 +6433,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Priorka"
+                "balloonContent": "10202959"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6473,12 +6532,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "3-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430 (\u043c\u0430\u0441\u0441\u0438\u0432 \u041c\u0430\u0439\u043e\u0440\u043e\u0432\u0430)"
+                "balloonContent": "11038066"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6623,12 +6683,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Vyshhorodskyi massif"
+                "balloonContent": "10202912"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6673,12 +6734,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "1-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "11038047"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6711,12 +6773,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
+                "balloonContent": "11038057"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6785,12 +6848,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "10th microdisctrict of Obolon"
+                "balloonContent": "29355010"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -6983,12 +7047,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Obolon grasslands"
+                "balloonContent": "28408145"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7033,12 +7098,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "11th microdistrict of Obolon"
+                "balloonContent": "10643489"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7187,12 +7253,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "\u0421\u0435\u0440\u0435\u0434\u043d\u044f \u0448\u043a\u043e\u043b\u0430 \u2116 252"
+                "balloonContent": "3591612"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7245,12 +7312,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "7th microdistrict of Obolon"
+                "balloonContent": "10643528"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7323,12 +7391,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "9th microdistrict of Obolon"
+                "balloonContent": "10639107"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7421,12 +7490,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "10th microdistrict of Obolon"
+                "balloonContent": "10643583"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7511,12 +7581,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "8th microdistrict of Obolon"
+                "balloonContent": "10643535"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7609,12 +7680,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "5th microdistrict of Obolon"
+                "balloonContent": "10643561"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7751,12 +7823,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": null
+                "balloonContent": "3583191"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7853,12 +7926,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "4th microdistrict of Obolon"
+                "balloonContent": "10643572"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -7975,12 +8049,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "3rd \"B\" microdistrict of Obolon"
+                "balloonContent": "11067933"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -8085,12 +8160,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "3rd \"A\" microdistrict of Obolon"
+                "balloonContent": "10871813"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -8147,12 +8223,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2nd microdistrict of Obolon"
+                "balloonContent": "10643608"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -8221,12 +8298,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "3rd microdistrict of Obolon"
+                "balloonContent": "10664985"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -8307,12 +8385,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "1st microdistrict of Obolon"
+                "balloonContent": "10643623"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -8585,12 +8664,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Lukianivka"
+                "balloonContent": "1294060"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -8891,12 +8971,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Tatarka"
+                "balloonContent": "1254936"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -9049,12 +9130,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Kudriavets"
+                "balloonContent": "11039133"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -9411,12 +9493,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Podil"
+                "balloonContent": "10203701"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -9621,12 +9704,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "Kurenivka"
+                "balloonContent": "10203071"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -9703,12 +9787,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "2nd microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11163750"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -9881,12 +9966,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "3rd microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11163761"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -10059,12 +10145,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "1st microdistrict of Vygurivshchuna-Troyeshchyna"
+                "balloonContent": "11038352"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -10209,12 +10296,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "5th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11069522"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -10379,12 +10467,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "6th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11164723"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -10501,12 +10590,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "7th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11163782"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -10651,12 +10741,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "8th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11163795"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -10833,12 +10924,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "11th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11164786"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -10927,12 +11019,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "26th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11163823"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -11053,12 +11146,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "21st microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11163832"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -11219,12 +11313,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "9th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11163861"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -11329,12 +11424,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "13th microregion of Vigurovshina-Troyeshina"
+                "balloonContent": "11164810"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -11451,12 +11547,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "14th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11164803"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -11569,12 +11666,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "22nd microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11164819"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -11707,12 +11805,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "23rd microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11049423"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         },
         {
@@ -11861,12 +11960,13 @@
             },
             "type": "Feature",
             "properties": {
-                "balloonContent": "24th microdistrict of Vygurivshchyna-Troyeshchyna"
+                "balloonContent": "11049403"
             },
             "options": {
                 "opacity": 0.5,
                 "strokeWidth": 8,
-                "fillColor": "#00FF00"
+                "fillColor": "#00FF00",
+                "interactivityModel": "default#transparent"
             }
         }
     ]
