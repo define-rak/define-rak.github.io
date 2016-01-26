@@ -3,8 +3,9 @@ ymaps.ready()
         var myMap = new ym.Map('YMapsID', {
             center: [55.751574, 37.573856],
             zoom: 10
+            controls: ['default']
         }, {
-            searchControlProvider: 'yandex#search'
+            
         });
 
         jQuery.getJSON('data.json', function (json) {

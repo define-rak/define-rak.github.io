@@ -122,6 +122,8 @@
                 "balloonContent": "Novokaravaevi Dachi"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -158,6 +160,8 @@
                 "balloonContent": "17-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -198,6 +202,8 @@
                 "balloonContent": null
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -294,6 +300,8 @@
                 "balloonContent": "22-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -350,6 +358,8 @@
                 "balloonContent": "21-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -398,6 +408,8 @@
                 "balloonContent": "Tampere cinema"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -430,6 +442,8 @@
                 "balloonContent": "18-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -474,6 +488,8 @@
                 "balloonContent": "15-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -550,6 +566,8 @@
                 "balloonContent": "13-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -606,6 +624,8 @@
                 "balloonContent": "12-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -654,6 +674,8 @@
                 "balloonContent": "11-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -686,6 +708,8 @@
                 "balloonContent": "5-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -782,6 +806,8 @@
                 "balloonContent": "4-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -814,6 +840,8 @@
                 "balloonContent": "2-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -850,6 +878,8 @@
                 "balloonContent": "1-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -882,6 +912,8 @@
                 "balloonContent": "3-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -926,6 +958,8 @@
                 "balloonContent": "14-\u0439 \u043a\u0432\u0430\u0440\u0442\u0430\u043b \u041e\u0442\u0440\u0430\u0434\u043d\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -994,6 +1028,8 @@
                 "balloonContent": "Peremoha"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1038,6 +1074,8 @@
                 "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1094,6 +1132,8 @@
                 "balloonContent": "4-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1194,6 +1234,8 @@
                 "balloonContent": "5-\u0439 \u0410 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1226,6 +1268,8 @@
                 "balloonContent": "1-\u0439 \u043c\u0456\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043a\u0456\u043b\u044c\u0441\u044c\u043a\u043e\u0457 \u0411\u043e\u0440\u0449\u0430\u0433\u0456\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1278,6 +1322,8 @@
                 "balloonContent": "8-\u0439 \u0410 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1326,6 +1372,8 @@
                 "balloonContent": "8-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1374,6 +1422,8 @@
                 "balloonContent": "9-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1426,6 +1476,8 @@
                 "balloonContent": "5-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041d\u0438\u043a\u043e\u043b\u044c\u0441\u043a\u043e\u0439 \u0411\u043e\u0440\u0449\u0430\u0433\u043e\u0432\u043a\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1494,6 +1546,8 @@
                 "balloonContent": "Zhovtneve Village"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1534,6 +1588,8 @@
                 "balloonContent": "\u0416\u041a \"\u0412\u0456\u0434\u043f\u043e\u0447\u0438\u043d\u043e\u043a\""
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1758,6 +1814,8 @@
                 "balloonContent": "Sviatoshyn"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1794,6 +1852,8 @@
                 "balloonContent": "1-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0410\u043a\u0430\u0434\u0435\u043c\u0433\u043e\u0440\u043e\u0434\u043a\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1858,6 +1918,8 @@
                 "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0410\u043a\u0430\u0434\u0435\u043c\u0433\u043e\u0440\u043e\u0434\u043a\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -1942,6 +2004,8 @@
                 "balloonContent": "8-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -2014,6 +2078,8 @@
                 "balloonContent": "10-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -2130,6 +2196,8 @@
                 "balloonContent": "12-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -2186,6 +2254,8 @@
                 "balloonContent": "13-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0411\u0435\u043b\u0438\u0447\u0435\u0439"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -2562,6 +2632,8 @@
                 "balloonContent": "Bilychi"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -2798,6 +2870,8 @@
                 "balloonContent": "Novobilychi"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -2882,6 +2956,8 @@
                 "balloonContent": "\u041f\u043e\u0441\u0451\u043b\u043e\u043a \u041d\u043e\u0432\u043e\u0431\u0435\u043b\u0438\u0447\u0438"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -2950,6 +3026,8 @@
                 "balloonContent": "\u0421\u0430\u0445\u0430\u043b\u0438\u043d"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -3014,6 +3092,8 @@
                 "balloonContent": "\u041d\u0438\u0432\u043a\u0438-I"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -3090,6 +3170,8 @@
                 "balloonContent": "\u041d\u0438\u0432\u043a\u0438-II"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -3186,6 +3268,8 @@
                 "balloonContent": "\u041d\u0438\u0432\u043a\u0438-III"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -3310,6 +3394,8 @@
                 "balloonContent": "\u041d\u0438\u0432\u043a\u0438-IV"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -3434,6 +3520,8 @@
                 "balloonContent": "Novokaravaevi Dachi"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -3530,6 +3618,8 @@
                 "balloonContent": "\u041c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0426\u0432\u0435\u0442\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e-1"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -3578,6 +3668,8 @@
                 "balloonContent": "\u041c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0426\u0432\u0435\u0442\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e-2"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -4230,6 +4322,8 @@
                 "balloonContent": "Bilyche Pole"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -4478,6 +4572,8 @@
                 "balloonContent": "Mostytskyi massiv"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -4638,6 +4734,8 @@
                 "balloonContent": "4-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -4826,6 +4924,8 @@
                 "balloonContent": "5-\u0439 \u043c\u0456\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -4938,6 +5038,8 @@
                 "balloonContent": "Kristerova hill"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -5154,6 +5256,8 @@
                 "balloonContent": "Vitriani Hory"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -5254,6 +5358,8 @@
                 "balloonContent": "3-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -5454,6 +5560,8 @@
                 "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -5606,6 +5714,8 @@
                 "balloonContent": "1-st microdistrict of Vynogradar"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -5726,6 +5836,8 @@
                 "balloonContent": "Syneozernyi massif"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -5926,6 +6038,8 @@
                 "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430\u0440\u044f"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6162,6 +6276,8 @@
                 "balloonContent": "Shevchenko"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6262,6 +6378,8 @@
                 "balloonContent": "Priorka"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6358,6 +6476,8 @@
                 "balloonContent": "3-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430 (\u043c\u0430\u0441\u0441\u0438\u0432 \u041c\u0430\u0439\u043e\u0440\u043e\u0432\u0430)"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6506,6 +6626,8 @@
                 "balloonContent": "Vyshhorodskyi massif"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6554,6 +6676,8 @@
                 "balloonContent": "1-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6590,6 +6714,8 @@
                 "balloonContent": "2-\u0439 \u043c\u0438\u043a\u0440\u043e\u0440\u0430\u0439\u043e\u043d \u041c\u0438\u043d\u0441\u043a\u043e\u0433\u043e \u043c\u0430\u0441\u0441\u0438\u0432\u0430"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6662,6 +6788,8 @@
                 "balloonContent": "10th microdisctrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6858,6 +6986,8 @@
                 "balloonContent": "Obolon grasslands"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -6906,6 +7036,8 @@
                 "balloonContent": "11th microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7058,6 +7190,8 @@
                 "balloonContent": "\u0421\u0435\u0440\u0435\u0434\u043d\u044f \u0448\u043a\u043e\u043b\u0430 \u2116 252"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7114,6 +7248,8 @@
                 "balloonContent": "7th microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7190,6 +7326,8 @@
                 "balloonContent": "9th microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7286,6 +7424,8 @@
                 "balloonContent": "10th microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7374,6 +7514,8 @@
                 "balloonContent": "8th microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7470,6 +7612,8 @@
                 "balloonContent": "5th microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7610,6 +7754,8 @@
                 "balloonContent": null
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7710,6 +7856,8 @@
                 "balloonContent": "4th microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7830,6 +7978,8 @@
                 "balloonContent": "3rd \"B\" microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7938,6 +8088,8 @@
                 "balloonContent": "3rd \"A\" microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -7998,6 +8150,8 @@
                 "balloonContent": "2nd microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -8070,6 +8224,8 @@
                 "balloonContent": "3rd microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -8154,6 +8310,8 @@
                 "balloonContent": "1st microdistrict of Obolon"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -8430,6 +8588,8 @@
                 "balloonContent": "Lukianivka"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -8734,6 +8894,8 @@
                 "balloonContent": "Tatarka"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -8890,6 +9052,8 @@
                 "balloonContent": "Kudriavets"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -9250,6 +9414,8 @@
                 "balloonContent": "Podil"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -9458,6 +9624,8 @@
                 "balloonContent": "Kurenivka"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -9538,6 +9706,8 @@
                 "balloonContent": "2nd microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -9714,6 +9884,8 @@
                 "balloonContent": "3rd microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -9890,6 +10062,8 @@
                 "balloonContent": "1st microdistrict of Vygurivshchuna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -10038,6 +10212,8 @@
                 "balloonContent": "5th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -10206,6 +10382,8 @@
                 "balloonContent": "6th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -10326,6 +10504,8 @@
                 "balloonContent": "7th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -10474,6 +10654,8 @@
                 "balloonContent": "8th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -10654,6 +10836,8 @@
                 "balloonContent": "11th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -10746,6 +10930,8 @@
                 "balloonContent": "26th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -10870,6 +11056,8 @@
                 "balloonContent": "21st microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -11034,6 +11222,8 @@
                 "balloonContent": "9th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -11142,6 +11332,8 @@
                 "balloonContent": "13th microregion of Vigurovshina-Troyeshina"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -11262,6 +11454,8 @@
                 "balloonContent": "14th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -11378,6 +11572,8 @@
                 "balloonContent": "22nd microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -11514,6 +11710,8 @@
                 "balloonContent": "23rd microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         },
@@ -11666,6 +11864,8 @@
                 "balloonContent": "24th microdistrict of Vygurivshchyna-Troyeshchyna"
             },
             "options": {
+                "opacity": 0.5,
+                "strokeWidth": 8,
                 "fillColor": "#00FF00"
             }
         }
