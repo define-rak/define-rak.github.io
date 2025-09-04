@@ -16,7 +16,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
-  var map = L.map('map').setView([6524428.302362433, 3397269.764917178], 12);
+  var map = L.map('map').setView([50.47008187719572, 30.49433934024485], 12);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
     maxZoom: 20
@@ -38,6 +38,14 @@
       var b = Math.round(lerp(0x0F, 0x3C, tt));
       return '#' + r.toString(16).padStart(2,'0') + g.toString(16).padStart(2,'0') + b.toString(16).padStart(2,'0');
     }
+  }
+
+  // Convert EPSG:3857 (WebMercator meters) -> WGS84 degrees
+  function webmercToWgs84(x, y) {
+    var lon = (x / 20037508.34) * 180.0;
+    var lat = (y / 20037508.34) * 180.0;
+    lat = 180.0 / Math.PI * (2.0 * Math.atan(Math.exp(lat * Math.PI / 180.0)) - Math.PI / 2.0);
+    return [lon, lat];
   }
 
   const url = 'kyiv_stop_shelters_20250903.geojson';
@@ -69,8 +77,7 @@
           var lg = L.layerGroup([]);
           groups[label] = lg;
           overlays['distance: ' + label] = lg;
-          // KEY CHANGE: add each range layer to map by default
-          lg.addTo(map);
+          lg.addTo(map); // default ON
         }
       }
 
@@ -78,7 +85,16 @@
         if (!f.geometry || f.geometry.type !== 'Point') return;
         var c = f.geometry.coordinates;
         if (!c || c.length < 2) return;
-        var lon = c[0], lat = c[1];
+        var x = c[0], y = c[1];
+
+        // Auto-detect coordinate order: if beyond lon/lat ranges, assume meters and convert
+        var lon, lat;
+        if (Math.abs(x) > 180 || Math.abs(y) > 90) {
+          var ll = webmercToWgs84(x, y);
+          lon = ll[0]; lat = ll[1];
+        } else {
+          lon = x; lat = y;
+        }
 
         var raw = f.properties ? f.properties.distance : null;
         var dist = null;
@@ -94,7 +110,7 @@
         }
         var popup = (name ? '<b>'+name+'</b><br/>' : '') + 'distance: ' + (dist===null?'NULL':dist);
 
-        if (dist === null) {
+        if (dist === null || !distances.length) {
           L.circleMarker([lat, lon], { radius:5, color:'#000', fillColor:'#000', fillOpacity:0.85, weight:1 })
             .bindPopup(popup).addTo(nullGroup);
         } else {
@@ -113,16 +129,13 @@
         }
       });
 
-      // Add the NULL layer by default too
       nullGroup.addTo(map);
 
-      // Build LayerControl AFTER layers are added so checkboxes start checked
       var overlaysDisplay = {};
       Object.keys(groups).forEach(label => overlaysDisplay['distance: ' + label] = groups[label]);
       overlaysDisplay['Відсутній distance (чорні)'] = nullGroup;
       L.control.layers(null, overlaysDisplay, {collapsed:false}).addTo(map);
 
-      // Legend
       var legend = L.control({position:'bottomright'});
       legend.onAdd = function(map) {
         var div = L.DomUtil.create('div', 'legend');
