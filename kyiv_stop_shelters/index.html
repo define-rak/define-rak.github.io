@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Карта з зовнішнім GeoJSON (не вбудованим)</title>
+<title>Карта з зовнішнім GeoJSON (усі діапазони увімкнені)</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
 <style>
   html, body, #map { height: 100%; margin: 0; }
@@ -16,7 +16,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script>
-  var map = L.map('map').setView([50.45043695545825, 30.517925621759716], 12);
+  var map = L.map('map').setView([6524428.302362433, 3397269.764917178], 12);
   L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
     attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
     maxZoom: 20
@@ -54,7 +54,7 @@
         }
       });
 
-      var groups = {}, nullGroup = L.layerGroup([]), overlays = {};
+      var groups = {}, overlays = {}, nullGroup = L.layerGroup([]);
       var dmin, dmax, bins = [];
       if (distances.length) {
         dmin = Math.min.apply(null, distances);
@@ -69,6 +69,8 @@
           var lg = L.layerGroup([]);
           groups[label] = lg;
           overlays['distance: ' + label] = lg;
+          // KEY CHANGE: add each range layer to map by default
+          lg.addTo(map);
         }
       }
 
@@ -111,16 +113,22 @@
         }
       });
 
-      var layerControl = L.control.layers(null, overlays, { collapsed:false }).addTo(map);
+      // Add the NULL layer by default too
       nullGroup.addTo(map);
-      layerControl.addOverlay(nullGroup, 'Відсутній distance (чорні)');
 
+      // Build LayerControl AFTER layers are added so checkboxes start checked
+      var overlaysDisplay = {};
+      Object.keys(groups).forEach(label => overlaysDisplay['distance: ' + label] = groups[label]);
+      overlaysDisplay['Відсутній distance (чорні)'] = nullGroup;
+      L.control.layers(null, overlaysDisplay, {collapsed:false}).addTo(map);
+
+      // Legend
       var legend = L.control({position:'bottomright'});
       legend.onAdd = function(map) {
         var div = L.DomUtil.create('div', 'legend');
         div.innerHTML = '<div><b>distance</b> (зелений → червоний)</div>' +
                         '<div class="scale"></div>' +
-                        (bins.length ? '<div>'+bins[0]+' … '+bins[bins.length-1]+'</div>' : '');
+                        (bins.length ? '<div>'+bins[0]+' … '+bins[bins.length-1]+' (крок 50)</div>' : '');
         return div;
       };
       legend.addTo(map);
