@@ -1,0 +1,147 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Наземна червона лінія</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: заголовок і три підсумкові цифри, далі два графіки одна під одною зі спільною віссю днів, під ними таблиця. */
+:root{
+  --bg:#f3f4f6; --ink:#16181d; --ink2:#4a505c; --muted:#7a8190; --grid:#dfe2e7;
+  --run:#8f96a5; --stop:#cf1f2e; --brand:#cf1f2e; --accent-soft:#f6d5d8;
+  --font:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12141a; --ink:#eceef2; --ink2:#b3b9c6; --muted:#8a91a1; --grid:#2a2e38;
+  --run:#7d8496; --stop:#ee4a57; --brand:#ee4a57; --accent-soft:#4a1e24; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#12141a; --ink:#eceef2; --ink2:#b3b9c6; --muted:#8a91a1; --grid:#2a2e38;
+  --run:#7d8496; --stop:#ee4a57; --brand:#ee4a57; --accent-soft:#4a1e24; color-scheme:dark;}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);padding-inline:clamp(16px,4vw,48px);padding-block:32px 48px;line-height:1.5}
+main{max-width:1080px;margin-inline:auto;display:flex;flex-direction:column;gap:36px}
+header{display:flex;flex-direction:column;gap:10px}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:10px}
+.eyebrow i{width:18px;height:6px;background:var(--brand);border-radius:3px;display:block}
+h1{font-size:clamp(28px,5vw,44px);line-height:1.08;margin:0;font-weight:700;letter-spacing:-.02em;text-wrap:balance}
+.lede{max-width:65ch;color:var(--ink2);margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:12px 40px}
+.stat{display:flex;flex-direction:column}
+.stat b{font:500 clamp(26px,4vw,34px) var(--mono);font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.stat span{font-size:13px;color:var(--muted)}
+section{display:flex;flex-direction:column;gap:10px}
+h2{font-size:17px;margin:0;font-weight:700}
+.sub{font-size:13px;color:var(--muted);margin:0}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--ink2)}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:12px;height:12px;border-radius:2px;display:block}
+.chart{position:relative}
+svg{display:block;width:100%;height:auto;overflow:visible}
+svg text{font-family:var(--mono);font-size:11px;fill:var(--muted)}
+.tip{position:absolute;pointer-events:none;background:var(--ink);color:var(--bg);padding:8px 10px;border-radius:6px;font-size:12px;line-height:1.45;white-space:nowrap;z-index:2;opacity:0;transition:opacity .08s}
+.tip b{font-weight:700}.tip .m{font-family:var(--mono);font-variant-numeric:tabular-nums}
+details{font-size:13px;color:var(--ink2)}
+summary{cursor:pointer;padding:4px 0}
+summary:focus-visible{outline:2px solid var(--brand);outline-offset:2px}
+.tw{overflow-x:auto;max-height:420px;overflow-y:auto;margin-top:8px}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums;font-size:12.5px}
+th,td{text-align:right;padding:5px 12px;border-bottom:1px solid var(--grid);white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+th{position:sticky;top:0;background:var(--bg);font-weight:500;color:var(--muted)}
+.foot{font-size:12.5px;color:var(--muted);max-width:75ch;margin:0}
+@media (prefers-reduced-motion:reduce){.tip{transition:none}}
+</style>
+
+<main>
+<header>
+  <div class="eyebrow"><i></i>Метро Києва · червона лінія, наземна частина</div>
+  <h1>Скільки лінія їздила щодоби з 1 серпня</h1>
+  <p class="lede">Під час повітряної тривоги наземна частина не працює. Тут тривоги накладені на графік роботи: 5:51–23:08 до 9 вересня і 5:51–0:08 з 10 вересня.</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<section>
+  <h2>Години роботи за добу</h2>
+  <p class="sub">Висота стовпчика дорівнює графіку роботи. Червоним показано, скільки лінія їздила, сірим скільки стояла через тривоги.</p>
+  <div class="legend"><span><i style="background:var(--run)"></i>Їздила</span><span><i style="background:var(--stop)"></i>Стояла через тривогу</span></div>
+  <div class="chart" id="c1"></div>
+</section>
+
+<section>
+  <h2>Частка робочого часу, коли лінія їздила</h2>
+  <p class="sub">100% означає, що тривог у робочі години не було.</p>
+  <div class="chart" id="c2"></div>
+</section>
+
+<details><summary>Таблиця за днями</summary><div class="tw"><table id="tbl"></table></div></details>
+<p class="foot">Джерело тривог: відкриті дані Київської міської ради. Час у наборі даних у UTC, тут переведений на київський. Останню добу (29.09) показано до 14:13, це час останнього запису в наборі, тому вона не входить у підсумки.</p>
+</main>
+
+<script>
+const D=[["2026-08-01", "05:51–23:08", 1037.0, 47.9, 2, false], ["2026-08-02", "05:51–23:08", 1037.0, 40.4, 3, false], ["2026-08-03", "05:51–23:08", 1037.0, 11.4, 1, false], ["2026-08-04", "05:51–23:08", 1037.0, 174.7, 3, false], ["2026-08-05", "05:51–23:08", 1037.0, 33.6, 2, false], ["2026-08-06", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-07", "05:51–23:08", 1037.0, 26.7, 1, false], ["2026-08-08", "05:51–23:08", 1037.0, 77.4, 2, false], ["2026-08-09", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-10", "05:51–23:08", 1037.0, 51.8, 3, false], ["2026-08-11", "05:51–23:08", 1037.0, 23.8, 2, false], ["2026-08-12", "05:51–23:08", 1037.0, 298.0, 3, false], ["2026-08-13", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-14", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-15", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-16", "05:51–23:08", 1037.0, 172.8, 4, false], ["2026-08-17", "05:51–23:08", 1037.0, 23.4, 1, false], ["2026-08-18", "05:51–23:08", 1037.0, 364.8, 7, false], ["2026-08-19", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-20", "05:51–23:08", 1037.0, 648.7, 7, false], ["2026-08-21", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-22", "05:51–23:08", 1037.0, 107.8, 4, false], ["2026-08-23", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-24", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-25", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-26", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-08-27", "05:51–23:08", 1037.0, 742.3, 10, false], ["2026-08-28", "05:51–23:08", 1037.0, 464.5, 10, false], ["2026-08-29", "05:51–23:08", 1037.0, 541.5, 7, false], ["2026-08-30", "05:51–23:08", 1037.0, 395.5, 8, false], ["2026-08-31", "05:51–23:08", 1037.0, 232.2, 10, false], ["2026-09-01", "05:51–23:08", 1037.0, 203.4, 6, false], ["2026-09-02", "05:51–23:08", 1037.0, 394.1, 10, false], ["2026-09-03", "05:51–23:08", 1037.0, 578.6, 6, false], ["2026-09-04", "05:51–23:08", 1037.0, 212.0, 5, false], ["2026-09-05", "05:51–23:08", 1037.0, 465.6, 4, false], ["2026-09-06", "05:51–23:08", 1037.0, 0.0, 0, false], ["2026-09-07", "05:51–23:08", 1037.0, 113.8, 2, false], ["2026-09-08", "05:51–23:08", 1037.0, 822.0, 4, false], ["2026-09-09", "05:51–23:08", 1037.0, 462.5, 6, false], ["2026-09-10", "05:51–00:08", 1097.0, 269.5, 6, false], ["2026-09-11", "05:51–00:08", 1097.0, 235.0, 4, false], ["2026-09-12", "05:51–00:08", 1097.0, 187.1, 6, false], ["2026-09-13", "05:51–00:08", 1097.0, 11.4, 2, false], ["2026-09-14", "05:51–00:08", 1097.0, 27.5, 1, false], ["2026-09-15", "05:51–00:08", 1097.0, 210.2, 5, false], ["2026-09-16", "05:51–00:08", 1097.0, 127.6, 5, false], ["2026-09-17", "05:51–00:08", 1097.0, 267.4, 8, false], ["2026-09-18", "05:51–00:08", 1097.0, 98.2, 4, false], ["2026-09-19", "05:51–00:08", 1097.0, 126.3, 4, false], ["2026-09-20", "05:51–00:08", 1097.0, 579.3, 8, false], ["2026-09-21", "05:51–00:08", 1097.0, 241.9, 5, false], ["2026-09-22", "05:51–00:08", 1097.0, 461.2, 8, false], ["2026-09-23", "05:51–00:08", 1097.0, 490.2, 7, false], ["2026-09-24", "05:51–00:08", 1097.0, 572.8, 4, false], ["2026-09-25", "05:51–00:08", 1097.0, 482.4, 9, false], ["2026-09-26", "05:51–00:08", 1097.0, 538.1, 7, false], ["2026-09-27", "05:51–00:08", 1097.0, 852.1, 3, false], ["2026-09-28", "05:51–00:08", 1097.0, 670.8, 6, false], ["2026-09-29", "05:51–00:08", 502.8, 231.4, 5, true]]; // [дата, графік, робочі хв, простій хв, кількість тривог, неповна]
+const rows=D.map(r=>({d:r[0],sch:r[1],work:r[2],down:r[3],n:r[4],part:r[5],run:r[2]-r[3],pct:100*(r[2]-r[3])/r[2]}));
+const full=rows.filter(r=>!r.part);
+const sum=k=>full.reduce((a,r)=>a+r[k],0);
+const H=m=>{const t=Math.round(m);return Math.floor(t/60)+" год "+String(t%60).padStart(2,"0")+" хв"};
+const MN=["січ","лют","бер","кві","тра","чер","лип","сер","вер","жов"];
+const fd=s=>{const [y,m,d]=s.split("-");return +d+" "+MN[+m-1]};
+const wd=s=>["нд","пн","вт","ср","чт","пт","сб"][new Date(s+"T12:00:00").getDay()];
+document.getElementById("stats").innerHTML=
+ `<div class="stat"><b>${(100*sum("run")/sum("work")).toFixed(1)}%</b><span>робочого часу лінія їздила, ${full.length} діб</span></div>
+  <div class="stat"><b>${(sum("down")/60).toFixed(0)} год</b><span>простою через тривоги</span></div>
+  <div class="stat"><b>${Math.max(...full.map(r=>r.down/60)).toFixed(1)} год</b><span>найдовший простій за добу, ${fd(full.reduce((a,r)=>r.down>a.down?r:a).d)}</span></div>`;
+document.getElementById("tbl").innerHTML="<tr><th>Дата</th><th>Графік</th><th>Робочі години</th><th>Їздила</th><th>Стояла</th><th>%</th><th>Тривог</th></tr>"+
+ rows.map(r=>`<tr><td>${fd(r.d)}, ${wd(r.d)}${r.part?" (неповна)":""}</td><td>${r.sch}</td><td>${(r.work/60).toFixed(1)}</td><td>${(r.run/60).toFixed(1)}</td><td>${(r.down/60).toFixed(1)}</td><td>${r.pct.toFixed(1)}</td><td>${r.n}</td></tr>`).join("");
+
+const NS="http://www.w3.org/2000/svg";
+function draw(id,kind){
+  const el=document.getElementById(id); el.innerHTML="";
+  const W=el.clientWidth||900, narrow=W<560, Hh=narrow?240:280;
+  const m={l:narrow?34:44,r:8,t:10,b:38}, iw=W-m.l-m.r, ih=Hh-m.t-m.b, n=rows.length, bw=iw/n;
+  const ymax=kind==="h"?20:100, yt=kind==="h"?[0,5,10,15,20]:[0,25,50,75,100];
+  const y=v=>m.t+ih*(1-v/ymax), x=i=>m.l+bw*i;
+  const s=document.createElementNS(NS,"svg"); s.setAttribute("viewBox",`0 0 ${W} ${Hh}`); s.setAttribute("role","img");
+  s.setAttribute("aria-label",kind==="h"?"Години роботи та простою за добу":"Частка робочого часу, коли лінія їздила");
+  let h="";
+  yt.forEach(t=>h+=`<line x1="${m.l}" x2="${W-m.r}" y1="${y(t)}" y2="${y(t)}" stroke="var(--grid)" stroke-width="1"/><text x="${m.l-6}" y="${y(t)+4}" text-anchor="end">${kind==="h"?t:t+"%"}</text>`);
+  const step=W<400?14:narrow?10:3;
+  rows.forEach((r,i)=>{
+    if(i%step===0) h+=`<text x="${x(i)+bw/2}" y="${Hh-m.b+16}" text-anchor="middle">${fd(r.d).replace(" ","\u00a0")}</text>`;
+  });
+  const sw=rows.findIndex(r=>r.d==="2026-09-10");
+  h+=`<line x1="${x(sw)}" x2="${x(sw)}" y1="${m.t}" y2="${m.t+ih}" stroke="var(--muted)" stroke-dasharray="3 3"/><text x="${x(sw)-5}" y="${m.t+10}" text-anchor="end">${narrow?"":"до "}23:08</text><text x="${x(sw)+5}" y="${m.t+10}">${narrow?"":"до "}0:08</text>`;
+  if(kind==="h"){
+    rows.forEach((r,i)=>{
+      const o=r.part?.55:1, w=Math.max(bw-(narrow?1:2),1), x0=x(i)+(bw-w)/2, rh=r.run/60, dh=r.down/60;
+      h+=`<rect x="${x0}" y="${y(rh)}" width="${w}" height="${ih*rh/ymax}" fill="var(--run)" opacity="${o}"/>`;
+      if(dh>0.02) h+=`<rect x="${x0}" y="${y(rh+dh)}" width="${w}" height="${Math.max(ih*dh/ymax-1,0.5)}" fill="var(--stop)" opacity="${o}"/>`;
+    });
+  } else {
+    const pts=rows.map((r,i)=>[x(i)+bw/2,y(r.pct)]);
+    h+=`<path d="M${pts.map(p=>p.join(",")).join("L")}L${pts[n-1][0]},${y(0)}L${pts[0][0]},${y(0)}Z" fill="var(--run)" opacity=".12"/>`;
+    h+=`<polyline points="${pts.map(p=>p.join(",")).join(" ")}" fill="none" stroke="var(--run)" stroke-width="2" stroke-linejoin="round"/>`;
+    const lo=rows.reduce((a,r,i)=>r.pct<rows[a].pct?i:a,0);
+    h+=`<circle cx="${pts[lo][0]}" cy="${pts[lo][1]}" r="4" fill="var(--run)" stroke="var(--bg)" stroke-width="2"/><text x="${Math.min(pts[lo][0]+8,W-70)}" y="${pts[lo][1]+4}" style="fill:var(--ink)">${rows[lo].pct.toFixed(0)}%, ${fd(rows[lo].d)}</text>`;
+  }
+  h+=`<line id="${id}x" y1="${m.t}" y2="${m.t+ih}" stroke="var(--ink2)" stroke-width="1" style="display:none"/>`;
+  h+=`<rect x="${m.l}" y="${m.t}" width="${iw}" height="${ih}" fill="transparent" id="${id}hit"/>`;
+  s.innerHTML=h; el.appendChild(s);
+  const tip=document.createElement("div"); tip.className="tip"; el.appendChild(tip);
+  const hit=s.querySelector("#"+id+"hit"), cur=s.querySelector("#"+id+"x");
+  const move=e=>{
+    const b=hit.getBoundingClientRect(); const px=(e.clientX-b.left)*(iw/b.width);
+    const i=Math.max(0,Math.min(n-1,Math.floor(px/bw))), r=rows[i];
+    cur.setAttribute("x1",x(i)+bw/2); cur.setAttribute("x2",x(i)+bw/2); cur.style.display="";
+    tip.innerHTML=`<b>${fd(r.d)}, ${wd(r.d)}</b>${r.part?" (неповна доба)":""}<br>Графік ${r.sch}<br>Їздила: <span class="m">${H(r.run)}</span> (<span class="m">${r.pct.toFixed(1)}%</span>)<br>Стояла: <span class="m">${H(r.down)}</span>, тривог: <span class="m">${r.n}</span>`;
+    tip.style.opacity=1;
+    const tw=tip.offsetWidth, cx=m.l+bw*i+bw/2, sc=el.clientWidth/W;
+    tip.style.left=Math.max(0,Math.min(cx*sc-tw/2,el.clientWidth-tw))+"px"; tip.style.top="0px";
+  };
+  hit.addEventListener("pointermove",move); hit.addEventListener("pointerdown",move);
+  hit.addEventListener("pointerleave",()=>{tip.style.opacity=0;cur.style.display="none"});
+}
+function all(){draw("c1","h");draw("c2","p")}
+all(); let t; addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(all,120)});
+</script>
+
+</body></html>
